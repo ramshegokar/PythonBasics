@@ -8,7 +8,7 @@ def disbdate():
 data = []
 
 
-for i in range(10000000):
+for i in xrange(10000000):
     business_date = str(random.randint(1, 29)).zfill(2) + '/' + str(random.randint(10, 12)).zfill(2) + '/' + '2017'
     ind = business_date
     outd = '31/12/2099'
