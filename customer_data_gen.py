@@ -56,3 +56,4 @@ for i in range(10):
 
 with open('dim_customer.csv', 'w') as f:
     f.write('\n'.join(data))
+
